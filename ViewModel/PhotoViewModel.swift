@@ -9,9 +9,10 @@ import Foundation
 
 class PhotoViewModel {
     
-    var barbieri = [
+    var salone = [
         PhotoModel(imageName: "FotoSalone1"),
         PhotoModel(imageName: "FotoSalone2"),
         PhotoModel(imageName: "FotoSalone3")
     ]
 }
+

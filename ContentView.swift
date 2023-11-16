@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct ContentView: View {
-    var barba = PhotoViewModel()
+    var fotosalone = PhotoViewModel()
     
     @State var selfoto: String = "noimage"
     
@@ -18,7 +18,7 @@ struct ContentView: View {
                     Text("I Nostri Tagli")
                         .font(.headline)
                     TabView(selection: $selfoto){
-                        ForEach(barba.barbieri){barbieri in
+                        ForEach(fotosalone.salone){barbieri in
                             Image(barbieri.imageName)
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
@@ -27,7 +27,7 @@ struct ContentView: View {
                         }
                     }
                     .tabViewStyle(.page)
-                    .frame(width: 6000.0, height: 250.0)
+                    .frame(width: 600.0, height: 250.0)
                     .background(Color.black)
                     .frame(width: 190)
                 }
