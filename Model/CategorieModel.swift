@@ -10,5 +10,5 @@ import Foundation
 struct CategorieModel: Identifiable{
     var id: UUID = UUID()
     
-    var prodotti: String
+    var name: String
 }

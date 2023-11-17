@@ -6,16 +6,17 @@
 //
 
 import Foundation
+import SwiftUI
 
 class CategorieViewModel{
     var prodotti = [
-        CategorieModel(prodotti: "Barba + Beauty Skin Care"),
-        CategorieModel(prodotti: "Progetto Relax"),
-        CategorieModel(prodotti: "Barba Più Stile"),
-        CategorieModel(prodotti: "Pelata"),
-        CategorieModel(prodotti: "Taglio Capelli"),
-        CategorieModel(prodotti: "Taglio Fidelity"),
-        CategorieModel(prodotti: "Piega Style"),
-        CategorieModel(prodotti: "Trattamento Specifico")
+        CategorieModel(name: "Barba + Beauty Skin Care"),
+        CategorieModel(name: "Progetto Relax"),
+        CategorieModel(name: "Barba Più Stile"),
+        CategorieModel(name: "Pelata"),
+        CategorieModel(name: "Taglio Capelli"),
+        CategorieModel(name: "Taglio Fidelity"),
+        CategorieModel(name: "Piega Style"),
+        CategorieModel(name: "Trattamento Specifico")
     ]
 }

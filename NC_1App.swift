@@ -11,7 +11,24 @@ import SwiftUI
 struct NC_1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView() {
+                AppuntamentiView()
+                    .tabItem {
+                        Image(systemName:"calendar")
+                        Text("Prenota")
+                    }
+
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "house")
+                        Text("Home")
+                    }
+                InformazioniView()
+                    .tabItem { Image(systemName:"book.pages" )
+                        Text("Informazioni")
+                    }
+            }
         }
     }
 }
+
