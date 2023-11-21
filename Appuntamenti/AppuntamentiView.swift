@@ -111,7 +111,7 @@ struct AppuntamentiView: View {
                 
                 
             }.padding()
-                .navigationTitle("Prenota Ora")
+                .navigationTitle("Reserve Now")
                 .toolbar{
                     Circle()
                         .frame(width: 30.0, height:30.0)

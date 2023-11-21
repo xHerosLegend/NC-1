@@ -15,7 +15,7 @@ struct NC_1App: App {
                 AppuntamentiView()
                     .tabItem {
                         Image(systemName:"calendar")
-                        Text("Prenota")
+                        Text("Reserve")
                     }
 
                 ContentView()
@@ -25,7 +25,7 @@ struct NC_1App: App {
                     }
                 InformazioniView()
                     .tabItem { Image(systemName:"book.pages" )
-                        Text("Informazioni")
+                        Text("Information")
                     }
             }
         }

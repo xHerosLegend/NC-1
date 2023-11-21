@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationStack{
             ScrollView {
                 VStack(alignment: .center) {
-                    Text("I Nostri Tagli")
+                    Text("Our Cuts")
                         .font(.headline)
                     TabView(selection: $selfoto){
                         ForEach(barba.salone){barbieri in
@@ -38,7 +38,7 @@ struct ContentView: View {
                         .frame(width: 30.0, height:30.0)
                 }
                 VStack{
-                    Text("I Tuoi Appuntamenti")
+                    Text("Your Reserve")
                         .font(.headline)
                     
                 }
